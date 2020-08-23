@@ -37,5 +37,5 @@ tinhtiendien.function = function(sokw){
     } else {
         tiendien = bac50*muc1 + bac50*muc2 + bac100*muc3 + bac100*muc4 + bac100*muc5 + (sokw-bac50-bac50-bac100-bac100-bac100)*muc6
     }
-    return tiendien
+    return (tiendien)
 }
